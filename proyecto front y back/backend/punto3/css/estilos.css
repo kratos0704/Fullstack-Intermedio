@@ -1,0 +1,33 @@
+body
+{
+    font-family: 'Lobster', cursive;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+.datos{
+    text-align: center;
+    font-size: 2rem;
+
+}
+.datos input[type="text"]{
+    font-family: 'Lobster', cursive;
+    margin-top: 2rem;
+    
+
+}
+
+.datos input[type="submit"]{
+    background-color: blue;
+    color: wheat;
+    width: 200px ;
+    height: 50px;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+}

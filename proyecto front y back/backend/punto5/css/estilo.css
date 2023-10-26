@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+input[type="text"]{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    
+}
+input[type="num"]{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: wheat;
+    width: 100px ;
+    height: 25px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.tabla {
+    
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+  
+}
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla th,
+.tabla td {
+    padding: 6px;
+    border: 1px solid #ccc;
+    width: 10px;
+    left: 10px;
+}
+
+.tabla th {
+    background-color: #f2f2f2;
+}
+

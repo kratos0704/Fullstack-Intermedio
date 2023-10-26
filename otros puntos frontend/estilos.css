@@ -1,0 +1,99 @@
+.azul{
+    color: blue;
+}
+.rojo{
+    color: red;
+}
+.subrayado{
+    text-decoration: underline;
+    color: green;
+}
+.doslineas{
+    
+    position: relative;
+    text-decoration: none;
+}
+.doslineas::before,
+.doslineas::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid black;
+    left: 0;
+}
+.doslineas::before {
+    top: 0;
+}
+.doslineas::after {
+    bottom: 0;
+    
+}
+.grande{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.rojosub{
+    color: red;
+    text-decoration: underline;
+}
+.marca{
+    color: yellow;
+    text-decoration: underline;
+
+}
+.as{
+    color: purple ;
+    text-decoration: underline;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    display: flex;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+.tabla{
+    
+    background-color: yellow !important;
+    border-collapse: collapse; 
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+.tabla th{
+    color: red;
+    text-align: center; ;
+    border: 1px solid black;
+}
+.tabla td {
+     
+
+    padding: 10px; 
+    border: 1px solid black; 
+}
+.text{
+    text-align: left;
+}
