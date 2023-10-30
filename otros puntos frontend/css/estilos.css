@@ -97,3 +97,21 @@ nav a:hover {
 .text{
     text-align: left;
 }
+
+#punto8 table{
+    background-color: yellow;
+    border: 1px dotted black;
+    padding: 0px;
+}
+#punto8 table th::first-letter{
+    font-weight: bold;
+}
+#punto8 table th{
+    color: red;
+    font-style: italic;
+    border: none;
+}
+#punto8 table td{
+    padding: 0px;
+    border: 1px dotted black;
+}
